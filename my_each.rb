@@ -1,6 +1,6 @@
 def my_each(collection) 
   i=0 
   while i < collection.length
-array[i]
-i+1
+yield array[i]
+i=i+1
 end
